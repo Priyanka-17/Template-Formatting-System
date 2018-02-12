@@ -1,0 +1,4 @@
+!name1=John Q.
+# name2 is not defined, will result in an error
+!salutation=Dear @name1 @name2
+@salutation

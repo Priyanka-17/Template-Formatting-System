@@ -1,0 +1,5 @@
+# error, name1 is not assigned a value
+!name1
+!name2=Smith
+!salutation=Dear @name1 @name2
+@salutation

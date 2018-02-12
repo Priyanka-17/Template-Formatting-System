@@ -1,0 +1,5 @@
+!name1=john
+## Two @ signs will output to a single @.
+Please write to @name1@@gmail.com.
+## n '@' symbols will output to n - 1 '@' symbols.
+@@@@@@

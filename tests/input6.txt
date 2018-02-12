@@ -1,0 +1,4 @@
+Begin.
+!place=Disney World
+#this comment will not appear in output
+Welcome to @place #this will appear in output.

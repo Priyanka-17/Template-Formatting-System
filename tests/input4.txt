@@ -1,0 +1,5 @@
+!name1=John Q.
+# error, 'name 2' contains non-alphanumeric characters (space)
+!name 2=Smith
+!salutation=Dear @name1 @name 2
+@salutation

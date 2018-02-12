@@ -1,0 +1,5 @@
+# error, because field name is empty
+!=John Q.
+!name2=Smith
+!salutation=Dear @name1 @name2
+@salutation
