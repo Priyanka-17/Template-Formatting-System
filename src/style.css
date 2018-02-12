@@ -1,0 +1,72 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  margin: 20px 30px;
+}
+
+.input-area {
+  display: block;
+  height: 500px;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: monospace;
+  margin: 0 10px;
+}
+
+.output {
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+  height: 500px;
+  overflow-y: scroll;
+  border: 0.5px solid gray;
+  padding: 10px;
+  font-size: 15px;
+  font-family: monospace;
+  margin: 0 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.output, .input-area {
+  flex: 1 45%;
+}
+
+.browse-button, .process-button {
+  flex: 1 100%;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  line-height: 20px;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.browse-button {
+  background-color: lightblue;
+}
+
+.process-button {
+  background-color: lightgreen;
+}
+
+.errors-container {
+  flex: 1 100%;
+  display: block;
+  background-color: #ffddee;
+  padding: 10px;
+  flex: 1 100%;
+  display: none;
+}
+.errors-container.visible {
+  display: block;
+}
+
+.inputfile {
+  display: none;
+}
