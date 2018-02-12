@@ -1,0 +1,16 @@
+# No errors in this file.
+!name1=John Q.
+!name2=Smith
+!salutation=Dear @name1 @name2
+1 Infinite Loop
+!product=Horcrux Widget
+Somewheresville, CA 98765
+  
+@salutation,
+  
+Thank you for your interest in @{product}s.
+Unfortunately, we sold our last @product yesterday.
+  
+@name1, if you have any more questions about our products,
+email us at support@@horcrux.com, tweet to @@horcrux_support,
+or call us @@ 1-800-HORCRUX.
